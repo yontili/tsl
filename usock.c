@@ -2,7 +2,7 @@
 extern "C" {
 #endif
 
-#include "network.h"
+#include "usock.h"
 
 int sockInit(void) {
   #ifdef _WIN32
